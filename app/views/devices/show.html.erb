@@ -1,9 +1,1 @@
-<div>
-	<div class="picture">
-		 <%= image_tag(@device.image) %>
-	</div>
-	<div>
-		<div><%= @device.name %></div>
-		<div><%= @device.nickname %></div>
-	</div>
-</div>
+render partial: "devices/shared/device", locals: {device: @device}
