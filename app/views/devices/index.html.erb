@@ -1,0 +1,15 @@
+<div class="element element-1 clearfix">
+	<button class="_button _button-1"></button>
+</div>
+<p class="text">My Devices</p>
+
+<% @devices.each do |device| %>
+	<%= render partial: "devices/shared/device", locals: {device: device} %>
+<% end %>
+
+<!-- only once; pinned to bottom -->
+<div class="element element-3 clearfix">
+	<img class="image image-1" src="images/user.png">
+	<img class="image image-2" src="images/home_button.png">
+	<img class="image image-3" src="images/settings.png">
+</div>

@@ -1,0 +1,138 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 1.25em/1.38 Helvetica;
+  color: rgb(0, 0, 0);
+}
+
+.image {
+  display: block;
+  float: left;
+  width: 30px;
+  height: auto;
+  margin-top: 14px;
+  overflow: hidden;
+}
+
+.item_category_brand {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 8;
+  margin: -102px 0 0 48.73246%;
+  font-size: 0.65em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(59, 59, 59);
+}
+
+.item_image {
+  float: left;
+  width: 130px;
+  height: 130px;
+  margin: 27px 0 0 3.15351%;
+  border: 1px solid rgba(0, 0, 0, 0.32);
+  border-radius: 5px;
+  background-image: url('../images/deadbolt.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  overflow: hidden;
+}
+
+.item_name {
+  position: relative;
+  float: left;
+  z-index: 7;
+  margin: 27px 0 0 9.0877199999%;
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+.text {
+  position: relative;
+  z-index: 11;
+  width: 95%;
+  margin: 74px auto 0;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgb(158, 158, 158);
+  font-size: 1.1em;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+._button {
+  display: block;
+  border-radius: 3px;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+}
+
+.element-1 {
+  position: relative;
+  float: left;
+  z-index: 5;
+  width: 100%;
+  height: 54px;
+  background-color: rgb(81, 181, 254);
+}
+
+.element-2 {
+  position: relative;
+  z-index: 10;
+  width: 95%;
+  height: 185px;
+  margin: 0 auto;
+  border-bottom: 1px solid rgb(158, 158, 158);
+  background-color: rgb(255, 255, 255);
+}
+
+.element-3 {
+  position: fixed;
+  bottom: 1px;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  height: 54px;
+  background-color: rgb(81, 181, 254);
+}
+
+.image-1 {
+  margin-left: 15.72917%;
+}
+
+.image-2 {
+  margin-left: 22.26667%;
+}
+
+.image-3 {
+  margin-left: 23.16667%;
+}
+
+.element ._button-1 {
+  width: 30.1333333333%;
+  height: 37px;
+  margin: 7px auto 0;
+  background-image: url('../images/logo_white.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  font-size: 0.8em;
+  color: rgb(0, 0, 0);
+}
+
+.element ._button-2 {
+  position: relative;
+  float: left;
+  z-index: 9;
+  width: 43.7894736842%;
+  height: 59px;
+  margin: -59px 0 0 48.73246%;
+  background-color: rgb(27, 163, 199);
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+}

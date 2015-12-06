@@ -1,9 +1,23 @@
-<div>
-	<div class="picture">
+<!-- <div class="device_div">
+<div class="picture">
 		 <%= image_tag(device.image) %>
 	</div>
 	<div>
 		<div><%= device.name %></div>
 		<div><%= device.nickname %></div>
 	</div>
+		
+	<div class="control_div">
+		hola1
+	</div> -->
+<!-- </div> -->
+
+
+
+<!-- on every iteration -->
+<div class="element element-2 clearfix">
+	<div class="item_image"><%= image_tag(device.image) %></div>
+	<p class="item_name"><%= device.nickname %></p>
+	<p class="item_category_brand"><%= device.category %> | <%= device.brand %></p>
+	<button class="_button _button-2">Manage</button>
 </div>
